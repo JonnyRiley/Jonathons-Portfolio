@@ -53,21 +53,15 @@ function LandingPageHeader() {
           <Container>
             <div className="title-brand">
               <h1 className="presentation-title">Jonathon James Riley</h1>
-              {/* <div className="fog-low">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
-              </div> */}
-              {/* <div className="fog-low right">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
-              </div> */}
             </div>
 
             <h3 className="presentation-subtitle text-center">
               Junior Software Developer
             </h3>
           </Container>
-          <div class="d-flex">
-            <h2 class="mr-auto p-2">Coder</h2>
-            <h2 class="p-2">Business</h2>
+          <div className="d-flex">
+            <h2 className="mr-auto p-2">Coder</h2>
+            <h2 className="p-2">Business</h2>
           </div>
         </div>
         <div
@@ -76,19 +70,6 @@ function LandingPageHeader() {
             backgroundImage: "url(" + require("assets/img/clouds.png") + ")",
           }}
         />
-        {/* <h6 className="category category-absolute">
-          Designed and coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=pkr-index-page"
-            target="_blank"
-          >
-            <img
-              alt="..."
-              className="creative-tim-logo"
-              src={require("assets/img/creative-tim-white-slim2.png")}
-            />
-          </a>
-        </h6> */}
       </div>
     </>
   );

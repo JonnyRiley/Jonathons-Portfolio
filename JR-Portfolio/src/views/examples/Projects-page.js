@@ -62,10 +62,10 @@ function Projects() {
                       src={require("assets/img/faces/milkroom.png")}
                     />{" "}
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>React Web App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>React Web App</p>
+                  </div>
                 </Col>
                 <Col md="4" sm="7">
                   <h4 className="images-title">Front-End/Back-End</h4>
@@ -76,10 +76,10 @@ function Projects() {
                       src={require("assets/ncNews-thumbnail.png")}
                     />
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>React Web App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>React Web App</p>
+                  </div>
                 </Col>{" "}
                 <Col md="4" sm="7">
                   <h4 className="images-title">Front-end</h4>
@@ -91,10 +91,10 @@ function Projects() {
                       src={require("assets/reChargeThumbnail.png")}
                     />
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>Flutter App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>Flutter App</p>
+                  </div>
                 </Col>
               </Row>
 

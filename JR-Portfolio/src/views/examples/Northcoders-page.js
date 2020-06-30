@@ -22,8 +22,8 @@ function NorthcodersPage() {
       <div className="section profile-content">
         <Container>
           <Row>
-            <section class="d-flex justify-content-center">
-              <div class="shadow preload">
+            <section className="d-flex justify-content-center">
+              <div className="shadow preload">
                 <Col className="ml-auto mr-auto text-center" md="10">
                   <div className="name">
                     <h1 className="title">
@@ -38,12 +38,12 @@ function NorthcodersPage() {
                       >
                         {" "}
                         <img
-                          class="w-50 p-3"
+                          className="w-50 p-3"
                           src={ncNews}
                           alt="milkroom webApp"
                         ></img>
                         <img
-                          class="w-50 p-3"
+                          className="w-50 p-3"
                           src={ncNews2}
                           alt="milkroom webApp"
                         ></img>
@@ -66,7 +66,7 @@ function NorthcodersPage() {
                     title="nc-news back-end"
                   >
                     <img
-                      class="w-75 p-3"
+                      className="w-75 p-3"
                       src={NCBackEnd}
                       alt="milkroom webApp"
                     ></img>
@@ -80,7 +80,7 @@ function NorthcodersPage() {
                       <Col className="mr-auto" md="4" sm="5">
                         <img
                           alt="..."
-                          class="w-100 p-3"
+                          className="w-100 p-3"
                           src={require("assets/react.png")}
                         />{" "}
                       </Col>
@@ -88,14 +88,14 @@ function NorthcodersPage() {
                         {" "}
                         <img
                           alt="..."
-                          class="w-100 p-3"
+                          className="w-100 p-3"
                           src={require("assets/html5.png")}
                         />
                       </Col>
                       <Col className="mr-auto" md="3" sm="3">
                         <img
                           alt="..."
-                          class="w-75 p-3"
+                          className="w-75 p-3"
                           src={require("assets/CSS3.png")}
                         />
                       </Col>

@@ -18,43 +18,32 @@
 */
 /*eslint-disable*/
 import React from "react";
-
+import { Link } from "react-router-dom";
 // reactstrap components
-import { Row, Container, NavLink, NavItem, Navbar } from "reactstrap";
+import { Row, Container, NavLink, Navbar } from "reactstrap";
 
 function DemoFooter() {
   return (
     <footer className="footer footer-black footer-white">
       <Container>
         <Row>
-          <nav className="footer-nav">
-            <ul>
-              <li>
-                <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
-                  target="_blank"
-                >
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
-                  target="_blank"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.creative-tim.com/license?ref=pkr-footer"
-                  target="_blank"
-                >
-                  Licenses
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div className="ml-auto mr-auto text-center" md="10">
+            <nav className="footer-nav">
+              <ul>
+                <li>
+                  <a>ALL RIGHT RESERVED</a>
+                </li>
+                <li>
+                  <a>Copyright 2020©</a>
+                </li>
+                <li>
+                  <NavLink to="/license" tag={Link}>
+                    Licenses
+                  </NavLink>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </Row>
       </Container>
     </footer>

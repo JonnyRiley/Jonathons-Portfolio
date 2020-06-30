@@ -20,18 +20,18 @@ function VermillionPage() {
       <div className="section profile-content">
         <Container>
           <Row>
-            <section class="d-flex justify-content-center">
-              <div class="shadow preload">
+            <section className="d-flex justify-content-center">
+              <div className="shadow preload">
                 <Col className="ml-auto mr-auto text-center" md="10">
                   <div className="name">
                     <h1 className="title">
                       Vermillion <br />
                     </h1>
                     <Row>
-                      <div class="d-flex justify-content-center">
+                      <div className="d-flex justify-content-center">
                         {" "}
                         <img
-                          class="w-75 p-3"
+                          className="w-75 p-3"
                           src={vermillion}
                           alt="vermillion"
                         ></img>
@@ -78,7 +78,7 @@ function VermillionPage() {
                         <br></br>
                       </Col>
                     </Row>
-                    <div class="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center">
                       <p>
                         Be sure to Follow us on Instagram!
                         <NavLink

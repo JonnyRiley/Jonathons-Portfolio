@@ -20,18 +20,7 @@ import React from "react";
 import classnames from "classnames";
 import { Link } from "react-router-dom";
 import logo from "../../assets/jr-logo.png";
-import {
-  Collapse,
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-} from "reactstrap";
+import { Collapse, Navbar, NavItem, NavLink, Nav, Container } from "reactstrap";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -67,7 +56,9 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <img class="w-50 p-3" src={logo} alt="logo"></img>
+          <NavLink to="/landing-page" tag={Link}>
+            <img className="w-50 p-3" src={logo} alt="logo"></img>
+          </NavLink>
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
@@ -88,36 +79,24 @@ function IndexNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://twitter.com/JonnyRiley44"
-                target="_blank"
-                title="Follow us on Twitter"
-              >
-                <i className="fa fa-twitter" />
-                <p className="d-lg-none">Twitter</p>
+              <NavLink to="/about" tag={Link}>
+                <i className="nc-icon nc-single-02" /> ABOUT
+              </NavLink>
+            </NavItem>{" "}
+            <NavItem>
+              <NavLink to="/projects" tag={Link}>
+                <i className="nc-icon nc-layout-11" /> Projects
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/jonny.riley.58"
+                href="https://www.linkedin.com/in/jonathon-riley-529291136/"
                 target="_blank"
-                title="Like us on Facebook"
+                title="Coonect with me on LinkedIn"
               >
-                <i className="fa fa-facebook-square" />
-                <p className="d-lg-none">Facebook</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.instagram.com/jonnyriley44/"
-                target="_blank"
-                title="Follow us on Instagram"
-              >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
+                <i className="fa fa-linkedin" />
+                <p className="d-lg-none">LinkedIn</p>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -130,8 +109,8 @@ function IndexNavbar() {
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            </NavItem>{" "}
+            {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle
                 aria-expanded={false}
                 aria-haspopup={true}
@@ -144,17 +123,17 @@ function IndexNavbar() {
                 onClick={(e) => e.preventDefault()}
                 role="button"
               >
-                <i class="nc-icon nc-align-center" />
+                <i className="nc-icon nc-align-center" />
               </DropdownToggle>
               <DropdownMenu
                 aria-labelledby="dropdownMenuButton"
                 className="dropdown-info"
               >
                 <DropdownItem
-                  href="#profile-page"
+                  href="/landing-page"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <Link to="/landing-page">Home</Link>
+                  Home
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -165,7 +144,7 @@ function IndexNavbar() {
                   <Link to="/projects">Projects</Link>
                 </DropdownItem>
               </DropdownMenu>
-            </UncontrolledDropdown>
+            </UncontrolledDropdown> */}
           </Nav>
         </Collapse>
       </Container>

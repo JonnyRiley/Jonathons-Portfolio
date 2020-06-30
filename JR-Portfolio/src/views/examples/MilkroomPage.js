@@ -22,8 +22,8 @@ function MilkroomPage() {
       <div className="section profile-content">
         <Container>
           <Row>
-            <section class="d-flex justify-content-center">
-              <div class="shadow preload">
+            <section className="d-flex justify-content-center">
+              <div className="shadow preload">
                 <Col className="ml-auto mr-auto text-center" md="10">
                   <div className="name">
                     <h1 className="title">
@@ -38,12 +38,12 @@ function MilkroomPage() {
                         title="themilkroom web-app"
                       >
                         <img
-                          class="w-50 p-3"
+                          className="w-50 p-3"
                           src={freakshake}
                           alt="milkroom webApp"
                         ></img>
                         <img
-                          class="w-50 p-3"
+                          className="w-50 p-3"
                           src={desktop}
                           alt="milkroom webApp"
                         ></img>{" "}
@@ -87,7 +87,7 @@ function MilkroomPage() {
                       <Col className="mr-auto" md="4" sm="5">
                         <img
                           alt="..."
-                          class="w-100 p-3"
+                          className="w-100 p-3"
                           src={require("assets/react.png")}
                         />{" "}
                       </Col>
@@ -95,14 +95,14 @@ function MilkroomPage() {
                         {" "}
                         <img
                           alt="..."
-                          class="w-100 p-3"
+                          className="w-100 p-3"
                           src={require("assets/html5.png")}
                         />
                       </Col>
                       <Col className="mr-auto" md="3" sm="3">
                         <img
                           alt="..."
-                          class="w-75 p-3"
+                          className="w-75 p-3"
                           src={require("assets/CSS3.png")}
                         />
                       </Col>

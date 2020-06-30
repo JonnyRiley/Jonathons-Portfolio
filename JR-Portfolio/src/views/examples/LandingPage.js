@@ -19,22 +19,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import {
-  Button,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col,
-  NavLink,
-} from "reactstrap";
+import { Button, Container, Row, Col, NavLink } from "reactstrap";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import MyForm from "./Feedback-page";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -44,6 +34,7 @@ function LandingPage() {
       document.body.classList.remove("profile-page");
     };
   });
+
   return (
     <>
       <IndexNavbar />
@@ -62,20 +53,19 @@ function LandingPage() {
                   into problem solving and how the world of tech works.
                 </h5>
                 <br />
-                <Button
+                <NavLink
                   className="btn-round"
                   color="info"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  to="/about"
+                  tag={Link}
                 >
-                  See Details
-                </Button>
+                  <Button>About</Button>
+                </NavLink>
               </Col>
             </Row>
             <Container>
-              <div className="nav-tabs-navigation">
-                <h2>Projects</h2>
-              </div>
+              <h2 color="default">Projects</h2>
+
               <Row>
                 <Col md="4" sm="7">
                   <h4 className="images-title">Front-End/Back-End</h4>
@@ -86,10 +76,10 @@ function LandingPage() {
                       src={require("assets/img/faces/milkroom.png")}
                     />{" "}
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>React Web App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>React Web App</p>
+                  </div>
                 </Col>
                 <Col md="4" sm="7">
                   <h4 className="images-title">Front-End/Back-End</h4>
@@ -100,10 +90,10 @@ function LandingPage() {
                       src={require("assets/ncNews-thumbnail.png")}
                     />
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>React Web App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>React Web App</p>
+                  </div>
                 </Col>{" "}
                 <Col md="4" sm="7">
                   <h4 className="images-title">Front-end</h4>
@@ -115,12 +105,21 @@ function LandingPage() {
                       src={require("assets/reChargeThumbnail.png")}
                     />
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>Flutter App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>Flutter App</p>
+                  </div>
                 </Col>
               </Row>
+              <br />
+              <NavLink
+                className="btn-round"
+                color="info"
+                to="/about"
+                tag={Link}
+              >
+                <Button>See More</Button>
+              </NavLink>
             </Container>
             <br />
             <br />
@@ -134,45 +133,7 @@ function LandingPage() {
                 <div className="text-center">
                   <h2 className="text-light">Keep in touch?</h2>
                 </div>
-                <Form className="contact-form">
-                  <Row>
-                    <Col md="6">
-                      <label className="text-light">Name</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Name" type="text" />
-                      </InputGroup>
-                    </Col>
-                    <Col md="6">
-                      <label className="text-light">Email</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Email" type="text" />
-                      </InputGroup>
-                    </Col>
-                  </Row>
-                  <label className="text-light">Message</label>
-                  <Input
-                    placeholder="Tell us your thoughts and feelings..."
-                    type="textarea"
-                    rows="4"
-                  />
-                  <Row>
-                    <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
-                        Send Message
-                      </Button>
-                    </Col>
-                  </Row>
-                </Form>
+                <MyForm />
               </Col>
             </Row>
           </Container>

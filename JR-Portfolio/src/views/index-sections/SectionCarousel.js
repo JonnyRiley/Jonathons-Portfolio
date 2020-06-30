@@ -141,24 +141,24 @@ function SectionCarousel() {
               <br></br>
               <br></br>
               <br></br>
-              <div class="text-center">
+              <div className="text-center">
                 <div className="title">
                   <h2>Random Facts</h2>
                 </div>
-                <div class="d-flex justify-content-center">
-                  <ul class="list-group">
-                    <li class="list-inline-item">Tea Drinker</li>
+                <div className="d-flex justify-content-center">
+                  <ul className="list-group">
+                    <li className="list-inline-item">Tea Drinker</li>
 
-                    <li class="list-inline-item">
+                    <li className="list-inline-item">
                       {" "}
                       I enjoy travelling the world
                     </li>
 
-                    <li class="list-inline-item">
+                    <li className="list-inline-item">
                       I love playing and watching all sports
                     </li>
 
-                    <li class="list-inline-item">
+                    <li className="list-inline-item">
                       I go to the gym regularly to keep myself fit
                     </li>
                   </ul>

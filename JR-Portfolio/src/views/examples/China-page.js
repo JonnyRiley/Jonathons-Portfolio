@@ -20,18 +20,18 @@ function ChinaPage() {
       <div className="section profile-content">
         <Container>
           <Row>
-            <section class="d-flex justify-content-center">
-              <div class="shadow preload">
+            <section className="d-flex justify-content-center">
+              <div className="shadow preload">
                 <Col className="ml-auto mr-auto text-center" md="10">
                   <div className="name">
                     <h1 className="title">
                       China <br />
                     </h1>
                     <Row>
-                      <div class="d-flex justify-content-center">
+                      <div className="d-flex justify-content-center">
                         {" "}
                         <img
-                          class="w-75 p-3"
+                          className="w-75 p-3"
                           src={ChinaMain}
                           alt="milkroom webApp"
                         ></img>

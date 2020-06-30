@@ -21,8 +21,8 @@ function ReChargePage() {
       <div className="section profile-content">
         <Container>
           <Row>
-            <section class="d-flex justify-content-center">
-              <div class="shadow preload">
+            <section className="d-flex justify-content-center">
+              <div className="shadow preload">
                 <Col className="ml-auto mr-auto text-center" md="10">
                   <div className="name">
                     <h1 className="title">
@@ -31,12 +31,12 @@ function ReChargePage() {
                     <Row>
                       {" "}
                       <img
-                        class="w-50 p-3"
+                        className="w-50 p-3"
                         src={reCharge}
                         alt="milkroom webApp"
                       ></img>
                       <img
-                        class="w-50 p-3"
+                        className="w-50 p-3"
                         src={reCharge2}
                         alt="milkroom webApp"
                       ></img>
@@ -51,16 +51,16 @@ function ReChargePage() {
                   </div>
                   <br></br>
                   <br></br>
-                  <div class="embed-responsive embed-responsive-16by9">
+                  <div className="embed-responsive embed-responsive-16by9">
                     <iframe
                       title="Graduation Video"
-                      class="embed-responsive-item"
+                      className="embed-responsive-item"
                       width="560"
                       height="315"
                       src="https://www.youtube.com/embed/4RUl9N7pYt4"
-                      frameborder="0"
+                      frameBorder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
+                      allowFullScreen
                     ></iframe>
                   </div>
                   <br></br>
@@ -97,7 +97,7 @@ function ReChargePage() {
                       <Col className="mr-auto" md="4" sm="4">
                         <img
                           alt="..."
-                          class="w-100 p-3"
+                          className="w-100 p-3"
                           src={require("assets/flutter-logo.png")}
                         />{" "}
                       </Col>
@@ -105,7 +105,7 @@ function ReChargePage() {
                         {" "}
                         <img
                           alt="..."
-                          class="w-100 p-3"
+                          className="w-100 p-3"
                           src={require("assets/dart-logo.png")}
                         />
                       </Col>

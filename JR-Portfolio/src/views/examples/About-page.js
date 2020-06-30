@@ -50,7 +50,7 @@ function About() {
 
           <SectionCarousel />
 
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <Row>
               <Col>
                 <div className="container-fluid">
@@ -58,7 +58,7 @@ function About() {
                     <h2>Software Languages and Frameworks</h2>
                   </div>
                   <br />
-                  <p>
+                  <div>
                     {" "}
                     Javascript
                     <Progress
@@ -66,16 +66,16 @@ function About() {
                       value="90"
                       barClassName="progress-bar-success"
                     />
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     React
                     <Progress
                       max="100"
                       value="85"
                       barClassName="progress-bar-success"
                     />
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     {" "}
                     HTML5
                     <Progress
@@ -83,8 +83,8 @@ function About() {
                       value="85"
                       barClassName="progress-bar-success"
                     />
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     {" "}
                     CSS
                     <Progress
@@ -92,8 +92,8 @@ function About() {
                       value="85"
                       barClassName="progress-bar-success"
                     />
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     {" "}
                     Bootstrap
                     <Progress
@@ -101,8 +101,8 @@ function About() {
                       value="78"
                       barClassName="progress-bar-success"
                     />
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     {" "}
                     NodeJs
                     <Progress
@@ -110,8 +110,8 @@ function About() {
                       value="78"
                       barClassName="progress-bar-success"
                     />
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     {" "}
                     Express.js
                     <Progress
@@ -119,8 +119,8 @@ function About() {
                       value="70"
                       barClassName="progress-bar-warning"
                     />
-                  </p>{" "}
-                  <p>
+                  </div>{" "}
+                  <div>
                     {" "}
                     PostgreSQL
                     <Progress
@@ -128,8 +128,8 @@ function About() {
                       value="70"
                       barClassName="progress-bar-warning"
                     />
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     {" "}
                     Flutter
                     <Progress
@@ -137,8 +137,8 @@ function About() {
                       value="70"
                       barClassName="progress-bar-warning"
                     />
-                  </p>
-                  <p>
+                  </div>
+                  <div>
                     {" "}
                     Dart
                     <Progress
@@ -146,7 +146,7 @@ function About() {
                       value="70"
                       barClassName="progress-bar-warning"
                     />
-                  </p>
+                  </div>
                 </div>
                 <br />
               </Col>
@@ -167,10 +167,10 @@ function About() {
                       src={require("assets/img/faces/milkroom.png")}
                     />{" "}
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>React Web App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>React Web App</p>
+                  </div>
                 </Col>
                 <Col md="4" sm="7">
                   <h4 className="images-title">Front-End/Back-End</h4>
@@ -181,10 +181,10 @@ function About() {
                       src={require("assets/ncNews-thumbnail.png")}
                     />
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>React Web App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>React Web App</p>
+                  </div>
                 </Col>{" "}
                 <Col md="4" sm="7">
                   <h4 className="images-title">Front-end</h4>
@@ -196,10 +196,10 @@ function About() {
                       src={require("assets/reChargeThumbnail.png")}
                     />
                     <br></br> <br></br>
-                    <div className="img-details">
-                      <p>Flutter App</p>
-                    </div>
                   </NavLink>
+                  <div className="img-details">
+                    <p>Flutter App</p>
+                  </div>
                 </Col>
               </Row>
             </div>

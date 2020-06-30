@@ -38,6 +38,7 @@ import EdgeHillPage from "./views/examples/EdgeHill-page.js";
 
 // others
 import About from "views/examples/About-page.js";
+import LicensePage from "views/examples/Licnese.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -69,6 +70,7 @@ ReactDOM.render(
 
       <Route path="/projects" render={(props) => <Projects {...props} />} />
       <Route path="/about" render={(props) => <About {...props} />} />
+      <Route path="/license" render={(props) => <LicensePage {...props} />} />
       <Redirect to="/landing-page" />
     </Switch>
   </BrowserRouter>,
