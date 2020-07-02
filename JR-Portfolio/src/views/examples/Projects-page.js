@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Row, Col } from "reactstrap";
+import { Button, Container, Row, Col } from "reactstrap";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
@@ -34,17 +34,21 @@ function Projects() {
               <h4 className="title">
                 Jonathon Riley <br />
               </h4>
-              <h5 className="col">
-                In addition to Coding, I studied International Business
-                throughout my time at College and University. This enabled me to
-                develop a wide variety of skills and knowledge of the business
-                world. I attended Edge Hill University and wrote my dissertation
-                on the automobile leasing industry. I believe that this
-                experience drove my desire to initiate my entrepreneurial self.
-                I partnered with a local brand Vermillion to distribute Hats
-                across the North West, UK.
-              </h5>
             </div>
+            <h5 className="col">
+              In addition to Coding, I studied International Business throughout
+              my time at College and University. This enabled me to develop a
+              wide variety of skills and knowledge of the business world. I
+              attended Edge Hill University and wrote my dissertation on the
+              automobile leasing industry. I believe that this experience drove
+              my desire to initiate my entrepreneurial self. I partnered with a
+              local brand Vermillion to distribute Hats across the North West,
+              UK.
+            </h5>
+            <br />
+            <NavLink className="btn-round" color="info" to="/about" tag={Link}>
+              <Button>About</Button>
+            </NavLink>
           </div>
           <Row>
             <div className="section text-center">

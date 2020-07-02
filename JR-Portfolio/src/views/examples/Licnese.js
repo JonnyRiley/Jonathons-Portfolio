@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Col, Row, NavLink } from "reactstrap";
-import vermillion from "../../assets/vermillion.png";
+import { Container, Col, Row } from "reactstrap";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";

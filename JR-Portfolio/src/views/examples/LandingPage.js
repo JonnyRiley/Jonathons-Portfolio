@@ -115,7 +115,7 @@ function LandingPage() {
               <NavLink
                 className="btn-round"
                 color="info"
-                to="/about"
+                to="/projects"
                 tag={Link}
               >
                 <Button>See More</Button>
