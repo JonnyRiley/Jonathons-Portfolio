@@ -5,8 +5,7 @@ import { Progress, Container, Row, Col } from "reactstrap";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-import { Link } from "react-router-dom";
-import { NavLink } from "reactstrap";
+import ProjectFooterPage from "./Project-Footer.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
 
 function About() {
@@ -37,14 +36,16 @@ function About() {
                   Jonathon Riley <br />
                 </h1>
               </div>
-              <h5 className="description">
-                An adaptable and responsible Business graduate that has recently
-                completed an industry-led coding Bootcamp, NorthCoders. I have a
-                clear, logical mind with a practical approach to problem solving
-                and a drive to see things through to completion. Coding has
-                enabled me to further my curiosity into problem solving and how
-                the world of tech works.
-              </h5>
+              <div className="d-flex justify-content-center">
+                <h5 className="w-75 p-3">
+                  An adaptable and responsible Business graduate that has
+                  recently completed an industry-led coding Bootcamp,
+                  NorthCoders. I have a clear, logical mind with a practical
+                  approach to problem solving and a drive to see things through
+                  to completion. Coding has enabled me to further my curiosity
+                  into problem solving and how the world of tech works.
+                </h5>
+              </div>
             </div>
           </div>
 
@@ -152,58 +153,7 @@ function About() {
               </Col>
             </Row>
           </div>
-          <Container>
-            <div className="section text-center">
-              <div className="title">
-                <h2>Projects</h2>
-              </div>
-              <Row>
-                <Col md="4" sm="7">
-                  <h4 className="images-title">Front-End/Back-End</h4>
-                  <NavLink to="/milkroom" tag={Link}>
-                    <img
-                      alt="..."
-                      className="img-rounded img-responsive"
-                      src={require("assets/img/faces/milkroom.png")}
-                    />{" "}
-                    <br></br> <br></br>
-                  </NavLink>
-                  <div className="img-details">
-                    <p>React Web App</p>
-                  </div>
-                </Col>
-                <Col md="4" sm="7">
-                  <h4 className="images-title">Front-End/Back-End</h4>
-                  <NavLink to="/northcoders" tag={Link}>
-                    <img
-                      alt="..."
-                      className="img-rounded img-responsive"
-                      src={require("assets/ncNews-thumbnail.png")}
-                    />
-                    <br></br> <br></br>
-                  </NavLink>
-                  <div className="img-details">
-                    <p>React Web App</p>
-                  </div>
-                </Col>{" "}
-                <Col md="4" sm="7">
-                  <h4 className="images-title">Front-end</h4>
-                  <NavLink to="/reCharge" tag={Link}>
-                    {" "}
-                    <img
-                      alt="..."
-                      className="img-rounded img-responsive"
-                      src={require("assets/reChargeThumbnail.png")}
-                    />
-                    <br></br> <br></br>
-                  </NavLink>
-                  <div className="img-details">
-                    <p>Flutter App</p>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </Container>
+          <ProjectFooterPage />
         </Container>
       </div>
       <DemoFooter />

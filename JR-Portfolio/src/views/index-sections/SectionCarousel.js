@@ -140,7 +140,6 @@ function SectionCarousel() {
               <br></br>
               <br></br>
               <br></br>
-              <br></br>
               <div className="text-center">
                 <div className="title">
                   <h2>Random Facts</h2>

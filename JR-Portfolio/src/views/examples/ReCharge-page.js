@@ -5,6 +5,7 @@ import reCharge2 from "../../assets/reChargeApp2.png";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import ProjectButtonPage from "./Project-button";
 
 function ReChargePage() {
   document.documentElement.classList.remove("nav-open");
@@ -28,19 +29,21 @@ function ReChargePage() {
                     <h1 className="title">
                       reCharge <br />
                     </h1>
-                    <Row>
-                      {" "}
-                      <img
-                        className="w-50 p-3"
-                        src={reCharge}
-                        alt="milkroom webApp"
-                      ></img>
-                      <img
-                        className="w-50 p-3"
-                        src={reCharge2}
-                        alt="milkroom webApp"
-                      ></img>
-                    </Row>
+                    <Container>
+                      <Row className="h-25 d-inline-block">
+                        {" "}
+                        <img
+                          className="w-50 p-3"
+                          src={reCharge}
+                          alt="milkroom webApp"
+                        ></img>
+                        <img
+                          className="w-50 p-3"
+                          src={reCharge2}
+                          alt="milkroom webApp"
+                        ></img>
+                      </Row>
+                    </Container>
                     <h4 className="description">
                       {" "}
                       On completion of my time at NorthCoders, it was required
@@ -89,28 +92,17 @@ function ReChargePage() {
                     completed and presented on time and can be viewed upon
                     request.
                   </h4>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <Container>
-                    <Row>
-                      <Col className="mr-auto" md="4" sm="4">
-                        <img
-                          alt="..."
-                          className="w-100 p-3"
-                          src={require("assets/flutter-logo.png")}
-                        />{" "}
-                      </Col>
-                      <Col className="mr-auto" md="4" sm="4">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="w-100 p-3"
-                          src={require("assets/dart-logo.png")}
-                        />
-                      </Col>
-                    </Row>
-                  </Container>
+                  <ProjectButtonPage />
+
+                  <Row className="h-75 d-inline-block">
+                    <Col>
+                      <img
+                        alt="..."
+                        className="w-75 p-3"
+                        src={require("assets/Flutter-Dart.png")}
+                      />{" "}
+                    </Col>
+                  </Row>
                 </Col>
               </div>
             </section>

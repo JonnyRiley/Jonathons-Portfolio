@@ -25,6 +25,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import MyForm from "./Feedback-page";
+import ProjectFooterPage from "./Project-Footer.js";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -63,64 +64,7 @@ function LandingPage() {
                 </NavLink>
               </Col>
             </Row>
-            <Container>
-              <h2 color="default">Projects</h2>
-
-              <Row>
-                <Col md="4" sm="7">
-                  <h4 className="images-title">Front-End/Back-End</h4>
-                  <NavLink to="/milkroom" tag={Link}>
-                    <img
-                      alt="..."
-                      className="img-rounded img-responsive"
-                      src={require("assets/img/faces/milkroom.png")}
-                    />{" "}
-                    <br></br> <br></br>
-                  </NavLink>
-                  <div className="img-details">
-                    <p>React Web App</p>
-                  </div>
-                </Col>
-                <Col md="4" sm="7">
-                  <h4 className="images-title">Front-End/Back-End</h4>
-                  <NavLink to="/northcoders" tag={Link}>
-                    <img
-                      alt="..."
-                      className="img-rounded img-responsive"
-                      src={require("assets/ncNews-thumbnail.png")}
-                    />
-                    <br></br> <br></br>
-                  </NavLink>
-                  <div className="img-details">
-                    <p>React Web App</p>
-                  </div>
-                </Col>{" "}
-                <Col md="4" sm="7">
-                  <h4 className="images-title">Front-end</h4>
-                  <NavLink to="/reCharge" tag={Link}>
-                    {" "}
-                    <img
-                      alt="..."
-                      className="img-rounded img-responsive"
-                      src={require("assets/reChargeThumbnail.png")}
-                    />
-                    <br></br> <br></br>
-                  </NavLink>
-                  <div className="img-details">
-                    <p>Flutter App</p>
-                  </div>
-                </Col>
-              </Row>
-              <br />
-              <NavLink
-                className="btn-round"
-                color="info"
-                to="/projects"
-                tag={Link}
-              >
-                <Button>See More</Button>
-              </NavLink>
-            </Container>
+            <ProjectFooterPage />
             <br />
             <br />
           </Container>

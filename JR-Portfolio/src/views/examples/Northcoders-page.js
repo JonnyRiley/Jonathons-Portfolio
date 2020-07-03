@@ -6,6 +6,7 @@ import NCBackEnd from "../../assets/NC-BE.png";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import ProjectButtonPage from "./Project-button";
 
 function NorthcodersPage() {
   document.documentElement.classList.remove("nav-open");
@@ -66,13 +67,13 @@ function NorthcodersPage() {
                     title="nc-news back-end"
                   >
                     <img
-                      className="w-75 p-3"
+                      className="w-100 p-3"
                       src={NCBackEnd}
                       alt="milkroom webApp"
                     ></img>
                   </NavLink>
-                  <br></br>
-                  <br></br>
+                  <ProjectButtonPage />
+
                   <br></br>
                   <br></br>
                   <Container>
@@ -80,7 +81,7 @@ function NorthcodersPage() {
                       <Col className="mr-auto" md="4" sm="5">
                         <img
                           alt="..."
-                          className="w-100 p-3"
+                          className="w-50 p-3"
                           src={require("assets/react.png")}
                         />{" "}
                       </Col>
@@ -88,14 +89,14 @@ function NorthcodersPage() {
                         {" "}
                         <img
                           alt="..."
-                          className="w-100 p-3"
+                          className="w-50 p-3"
                           src={require("assets/html5.png")}
                         />
                       </Col>
                       <Col className="mr-auto" md="3" sm="3">
                         <img
                           alt="..."
-                          className="w-75 p-3"
+                          className="w-50 p-3"
                           src={require("assets/CSS3.png")}
                         />
                       </Col>
