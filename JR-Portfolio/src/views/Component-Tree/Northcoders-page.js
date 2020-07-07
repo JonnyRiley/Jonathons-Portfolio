@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Col, Row, NavLink } from "reactstrap";
-import ncNews from "../../assets/nc-news.png";
-import ncNews2 from "../../assets/nc-news2.png";
-import NCBackEnd from "../../assets/NC-BE.png";
+import ncNews from "../../assets/Northcoders-Assets/nc-news.png";
+import ncNews2 from "../../assets/Northcoders-Assets/nc-news2.png";
+import NCBackEnd from "../../assets/Northcoders-Assets/NC-BE.png";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 import ProjectButtonPage from "./Project-button";
 
 function NorthcodersPage() {
@@ -82,7 +82,7 @@ function NorthcodersPage() {
                         <img
                           alt="..."
                           className="w-50 p-3"
-                          src={require("assets/react.png")}
+                          src={require("assets/Skills-Assets/react.png")}
                         />{" "}
                       </Col>
                       <Col className="mr-auto" md="3" sm="3">
@@ -90,14 +90,14 @@ function NorthcodersPage() {
                         <img
                           alt="..."
                           className="w-50 p-3"
-                          src={require("assets/html5.png")}
+                          src={require("assets/Skills-Assets/html5.png")}
                         />
                       </Col>
                       <Col className="mr-auto" md="3" sm="3">
                         <img
                           alt="..."
                           className="w-50 p-3"
-                          src={require("assets/CSS3.png")}
+                          src={require("assets/Skills-Assets/CSS3.png")}
                         />
                       </Col>
                     </Row>
@@ -108,7 +108,7 @@ function NorthcodersPage() {
           </Row>
         </Container>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

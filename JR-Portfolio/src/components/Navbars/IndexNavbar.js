@@ -56,7 +56,7 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavLink to="/landing-page" tag={Link}>
+          <NavLink to="/" tag={Link}>
             <img className="w-50 p-3" src={logo} alt="logo"></img>
           </NavLink>
           <button
@@ -110,41 +110,6 @@ function IndexNavbar() {
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
             </NavItem>{" "}
-            {/* <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle
-                aria-expanded={false}
-                aria-haspopup={true}
-                caret
-                color="default"
-                data-toggle="dropdown"
-                href="#pablo"
-                id="dropdownMenuButton"
-                nav
-                onClick={(e) => e.preventDefault()}
-                role="button"
-              >
-                <i className="nc-icon nc-align-center" />
-              </DropdownToggle>
-              <DropdownMenu
-                aria-labelledby="dropdownMenuButton"
-                className="dropdown-info"
-              >
-                <DropdownItem
-                  href="/landing-page"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Home
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                  <Link to="/about">About</Link>
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                  <Link to="/projects">Projects</Link>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown> */}
           </Nav>
         </Collapse>
       </Container>

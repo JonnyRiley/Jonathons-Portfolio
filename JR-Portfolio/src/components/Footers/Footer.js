@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
 // reactstrap components
 import { Row, Container, NavLink, Navbar } from "reactstrap";
 
-function DemoFooter() {
+function Footer() {
   return (
     <footer className="footer footer-black footer-white">
       <Container>
@@ -50,4 +50,4 @@ function DemoFooter() {
   );
 }
 
-export default DemoFooter;
+export default Footer;

@@ -4,7 +4,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 import { NavLink } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -77,7 +77,7 @@ function Projects() {
                     <img
                       alt="..."
                       className="img-rounded img-responsive"
-                      src={require("assets/ncNews-thumbnail.png")}
+                      src={require("assets/Northcoders-Assets/ncNews-thumbnail.png")}
                     />
                     <br></br> <br></br>
                   </NavLink>
@@ -92,7 +92,7 @@ function Projects() {
                     <img
                       alt="..."
                       className="img-rounded img-responsive"
-                      src={require("assets/reChargeThumbnail.png")}
+                      src={require("assets/ReCharge-Assets/reChargeThumbnail.png")}
                     />
                     <br></br> <br></br>
                   </NavLink>
@@ -147,7 +147,7 @@ function Projects() {
           </Row>
         </Container>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

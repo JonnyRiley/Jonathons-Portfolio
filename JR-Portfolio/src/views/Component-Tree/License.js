@@ -3,7 +3,7 @@ import { Container, Col, Row } from "reactstrap";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 function LicensePage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -52,7 +52,7 @@ function LicensePage() {
           </Row>
         </Container>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

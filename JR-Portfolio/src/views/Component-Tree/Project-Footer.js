@@ -59,7 +59,7 @@ function ProjectFooterPage() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/ncNews-thumbnail.png")}
+                  src={require("assets/Northcoders-Assets/ncNews-thumbnail.png")}
                 />
                 <br></br> <br></br>
               </NavLink>
@@ -74,7 +74,7 @@ function ProjectFooterPage() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/reChargeThumbnail.png")}
+                  src={require("assets/ReCharge-Assets/reChargeThumbnail.png")}
                 />
                 <br></br> <br></br>
               </NavLink>

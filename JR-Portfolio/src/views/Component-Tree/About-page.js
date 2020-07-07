@@ -4,7 +4,7 @@ import { Progress, Container, Row, Col } from "reactstrap";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 import ProjectFooterPage from "./Project-Footer.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
 
@@ -156,7 +156,7 @@ function About() {
           <ProjectFooterPage />
         </Container>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

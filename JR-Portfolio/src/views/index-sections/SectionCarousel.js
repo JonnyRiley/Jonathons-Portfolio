@@ -34,17 +34,17 @@ import {
 
 const items = [
   {
-    src: require("assets/travel.png"),
+    src: require("assets/Travel-Assets/travel.png"),
     altText: "Time Square",
     caption: "Time Square, New York",
   },
   {
-    src: require("assets/travel2.png"),
+    src: require("assets/Travel-Assets/travel2.png"),
     altText: "Morzine, France",
     caption: "Morzine, France",
   },
   {
-    src: require("assets/travel3.png"),
+    src: require("assets/Travel-Assets/travel3.png"),
     altText: "Colosseum, Rome",
     caption: "Colosseum, Rome",
   },

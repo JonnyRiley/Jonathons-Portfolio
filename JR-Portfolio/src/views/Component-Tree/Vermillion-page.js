@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Col, Row, NavLink } from "reactstrap";
-import vermillion from "../../assets/vermillion.png";
+import vermillion from "../../assets/Vermillion-Assets/vermillion.png";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 import ProjectButtonPage from "./Project-button";
 function VermillionPage() {
   document.documentElement.classList.remove("nav-open");
@@ -39,8 +39,8 @@ function VermillionPage() {
                   the North West, UK. Vermillion is a brand focused in the
                   fashion industry selling products from shoes, wallets, card
                   holders and clothing etc. I have yet to implement my tech
-                  skill set into this business due to time constraints however
-                  have the vision to do so in the near future.
+                  skill set into this business due to time constraints however,
+                  this is something that I am looking to do in the near future.
                 </h4>
                 <ProjectButtonPage />
               </div>
@@ -53,7 +53,7 @@ function VermillionPage() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/card-holder.png")}
+                  src={require("assets/Vermillion-Assets/card-holder.png")}
                 />{" "}
               </Col>
               <Col className="mr-auto" md="3" sm="3">
@@ -61,14 +61,14 @@ function VermillionPage() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/venice.png")}
+                  src={require("assets/Vermillion-Assets/venice.png")}
                 />
               </Col>
               <Col className="mr-auto" md="4" sm="4">
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/t-shirt.png")}
+                  src={require("assets/Vermillion-Assets/t-shirt.png")}
                 />
                 <br></br>
                 <br></br>
@@ -93,7 +93,7 @@ function VermillionPage() {
           </div>
         </Container>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

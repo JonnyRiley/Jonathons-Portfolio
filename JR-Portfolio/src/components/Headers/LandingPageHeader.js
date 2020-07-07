@@ -59,10 +59,6 @@ function LandingPageHeader() {
               Junior Software Developer
             </h3>
           </Container>
-          <div className="d-flex">
-            <h2 className="mr-auto p-2">Coder</h2>
-            <h2 className="p-2">Business</h2>
-          </div>
         </div>
         <div
           className="moving-clouds"

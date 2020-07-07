@@ -23,7 +23,7 @@ import { Button, Container, Row, Col, NavLink } from "reactstrap";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 import MyForm from "./Feedback-page";
 import ProjectFooterPage from "./Project-Footer.js";
 
@@ -83,7 +83,7 @@ function LandingPage() {
           </Container>
         </div>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

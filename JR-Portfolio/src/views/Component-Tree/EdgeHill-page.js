@@ -4,7 +4,7 @@ import ChinaMain from "../../assets/Uni-Assets/uni2.png";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 import ProjectButtonPage from "./Project-button";
 function EdgeHillPage() {
   document.documentElement.classList.remove("nav-open");
@@ -95,7 +95,7 @@ function EdgeHillPage() {
           </section>
         </Container>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

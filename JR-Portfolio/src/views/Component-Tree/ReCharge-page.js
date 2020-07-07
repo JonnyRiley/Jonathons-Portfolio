@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Col, Row } from "reactstrap";
-import reCharge from "../../assets/reChargeApp.png";
-import reCharge2 from "../../assets/reChargeApp2.png";
+import reCharge from "../../assets/ReCharge-Assets/reChargeApp.png";
+import reCharge2 from "../../assets/ReCharge-Assets/reChargeApp2.png";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "components/Footers/Footer.js";
 import ProjectButtonPage from "./Project-button";
 
 function ReChargePage() {
@@ -99,7 +99,7 @@ function ReChargePage() {
                       <img
                         alt="..."
                         className="w-75 p-3"
-                        src={require("assets/Flutter-Dart.png")}
+                        src={require("assets/Skills-Assets/Flutter-Dart.png")}
                       />{" "}
                     </Col>
                   </Row>
@@ -109,7 +109,7 @@ function ReChargePage() {
           </Row>
         </Container>
       </div>
-      <DemoFooter />
+      <Footer />
     </>
   );
 }

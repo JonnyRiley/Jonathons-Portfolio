@@ -27,18 +27,18 @@ import "assets/demo/demo.css";
 // pages
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
-import LandingPage from "views/examples/LandingPage.js";
-import Projects from "views/examples/Projects-page.js";
-import MilkroomPage from "./views/examples/MilkroomPage.js";
-import NorthcodersPage from "./views/examples/Northcoders-page.js";
-import ReChargePage from "./views/examples/ReCharge-page.js";
-import VermillionPage from "./views/examples/Vermillion-page.js";
-import ChinaPage from "./views/examples/China-page.js";
-import EdgeHillPage from "./views/examples/EdgeHill-page.js";
+import Projects from "views/Component-Tree/Projects-page.js";
+import MilkroomPage from "./views/Component-Tree/MilkroomPage.js";
+import NorthcodersPage from "./views/Component-Tree/Northcoders-page.js";
+import ReChargePage from "./views/Component-Tree/ReCharge-page.js";
+import VermillionPage from "./views/Component-Tree/Vermillion-page.js";
+import ChinaPage from "./views/Component-Tree/China-page.js";
+import EdgeHillPage from "./views/Component-Tree/EdgeHill-page.js";
 
 // others
-import About from "views/examples/About-page.js";
-import LicensePage from "views/examples/Licnese.js";
+import About from "views/Component-Tree/About-page.js";
+import LicensePage from "views/Component-Tree/License.js";
+import LandingPage from "views/Component-Tree/LandingPage.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -48,10 +48,7 @@ ReactDOM.render(
         path="/nucleo-icons"
         render={(props) => <NucleoIcons {...props} />}
       />
-      <Route
-        path="/landing-page"
-        render={(props) => <LandingPage {...props} />}
-      />
+      <Route path="/portfolio" render={(props) => <LandingPage {...props} />} />
       <Route path="/milkroom" render={(props) => <MilkroomPage {...props} />} />
       <Route path="/reCharge" render={(props) => <ReChargePage {...props} />} />
       <Route
@@ -71,7 +68,7 @@ ReactDOM.render(
       <Route path="/projects" render={(props) => <Projects {...props} />} />
       <Route path="/about" render={(props) => <About {...props} />} />
       <Route path="/license" render={(props) => <LicensePage {...props} />} />
-      <Redirect to="/landing-page" />
+      <Redirect to="/portfolio" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
