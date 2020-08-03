@@ -39,6 +39,7 @@ import EdgeHillPage from "./views/Component-Tree/EdgeHill-page.js";
 import About from "views/Component-Tree/About-page.js";
 import LicensePage from "views/Component-Tree/License.js";
 import LandingPage from "views/Component-Tree/LandingPage.js";
+import MMGPage from "views/Component-Tree/MMGPage.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -59,6 +60,7 @@ ReactDOM.render(
         path="/vermillion"
         render={(props) => <VermillionPage {...props} />}
       />
+      <Route path="/mmg" render={(props) => <MMGPage {...props} />} />
       <Route path="/china" render={(props) => <ChinaPage {...props} />} />
       <Route
         path="/university"

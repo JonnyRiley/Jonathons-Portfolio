@@ -101,6 +101,24 @@ function Projects() {
                   </div>
                 </Col>
               </Row>
+              <Row>
+                {" "}
+                <Col md="4" sm="7">
+                  <h4 className="images-title">Front-end</h4>
+                  <NavLink to="/mmg" tag={Link}>
+                    {" "}
+                    <img
+                      alt="..."
+                      className="img-rounded img-responsive"
+                      src={require("assets/MMG-Assets/MMG-Homepage.jpg")}
+                    />
+                    <br></br> <br></br>
+                  </NavLink>
+                  <div className="img-details">
+                    <p>WIX/ Editor X Website</p>
+                  </div>
+                </Col>
+              </Row>
 
               <div className="title">
                 <h2>Business</h2>
