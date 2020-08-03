@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/Jonathons-Portfolio/static/css/main.aef061e7.chunk.css",
-    "main.js": "/Jonathons-Portfolio/static/js/main.5824e6fe.chunk.js",
-    "main.js.map": "/Jonathons-Portfolio/static/js/main.5824e6fe.chunk.js.map",
+    "main.js": "/Jonathons-Portfolio/static/js/main.cffa484a.chunk.js",
+    "main.js.map": "/Jonathons-Portfolio/static/js/main.cffa484a.chunk.js.map",
     "runtime~main.js": "/Jonathons-Portfolio/static/js/runtime~main.865b229d.js",
     "runtime~main.js.map": "/Jonathons-Portfolio/static/js/runtime~main.865b229d.js.map",
-    "static/js/2.6ad8d3d7.chunk.js": "/Jonathons-Portfolio/static/js/2.6ad8d3d7.chunk.js",
-    "static/js/2.6ad8d3d7.chunk.js.map": "/Jonathons-Portfolio/static/js/2.6ad8d3d7.chunk.js.map",
+    "static/js/2.198d9c03.chunk.js": "/Jonathons-Portfolio/static/js/2.198d9c03.chunk.js",
+    "static/js/2.198d9c03.chunk.js.map": "/Jonathons-Portfolio/static/js/2.198d9c03.chunk.js.map",
     "index.html": "/Jonathons-Portfolio/index.html",
-    "precache-manifest.c4ab7068eb3a8d26d3fe34f77fd06072.js": "/Jonathons-Portfolio/precache-manifest.c4ab7068eb3a8d26d3fe34f77fd06072.js",
+    "precache-manifest.2a368d0d262e9070d94bf0b1912aa95c.js": "/Jonathons-Portfolio/precache-manifest.2a368d0d262e9070d94bf0b1912aa95c.js",
     "service-worker.js": "/Jonathons-Portfolio/service-worker.js",
     "static/css/main.aef061e7.chunk.css.map": "/Jonathons-Portfolio/static/css/main.aef061e7.chunk.css.map",
     "static/media/CSS3.png": "/Jonathons-Portfolio/static/media/CSS3.b337f4bb.png",
     "static/media/Flutter-Dart.png": "/Jonathons-Portfolio/static/media/Flutter-Dart.be2874df.png",
     "static/media/Graduation.jpg": "/Jonathons-Portfolio/static/media/Graduation.74f10eaf.jpg",
     "static/media/Header2.jpg": "/Jonathons-Portfolio/static/media/Header2.40273454.jpg",
+    "static/media/MMG-Homepage.jpg": "/Jonathons-Portfolio/static/media/MMG-Homepage.f0327a49.jpg",
+    "static/media/MMG-Phone-Homepage.png": "/Jonathons-Portfolio/static/media/MMG-Phone-Homepage.1bbfe70e.png",
+    "static/media/MMG-Phone-Products.png": "/Jonathons-Portfolio/static/media/MMG-Phone-Products.73968ba1.png",
+    "static/media/MMG-ProductManagement.jpg": "/Jonathons-Portfolio/static/media/MMG-ProductManagement.c7d054b4.jpg",
     "static/media/NC-BE.png": "/Jonathons-Portfolio/static/media/NC-BE.a00376e2.png",
     "static/media/NC-Photo copy.PNG": "/Jonathons-Portfolio/static/media/NC-Photo copy.811f7c03.PNG",
     "static/media/VermillionHat.jpg": "/Jonathons-Portfolio/static/media/VermillionHat.da18e466.jpg",
@@ -51,6 +55,7 @@
     "static/media/uni2.png": "/Jonathons-Portfolio/static/media/uni2.5fb1fd31.png",
     "static/media/uni3.png": "/Jonathons-Portfolio/static/media/uni3.52df080c.png",
     "static/media/venice.png": "/Jonathons-Portfolio/static/media/venice.78ccc094.png",
-    "static/media/vermillion.png": "/Jonathons-Portfolio/static/media/vermillion.1585aece.png"
+    "static/media/vermillion.png": "/Jonathons-Portfolio/static/media/vermillion.1585aece.png",
+    "static/media/wix.png": "/Jonathons-Portfolio/static/media/wix.fc6c3d14.png"
   }
 }

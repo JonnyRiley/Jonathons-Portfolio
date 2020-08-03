@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bae9e1e36e245f8f3fcd963ad687f1e",
+    "revision": "bb6ba387fb4d7d7fa62baf166fb21c2b",
     "url": "/Jonathons-Portfolio/index.html"
   },
   {
-    "revision": "a199119406805d32a47b",
+    "revision": "cea3f66d89b964c0ab25",
     "url": "/Jonathons-Portfolio/static/css/main.aef061e7.chunk.css"
   },
   {
-    "revision": "7f667fd55a60de8d154e",
-    "url": "/Jonathons-Portfolio/static/js/2.6ad8d3d7.chunk.js"
+    "revision": "76a26ee8acef9b25b6a4",
+    "url": "/Jonathons-Portfolio/static/js/2.198d9c03.chunk.js"
   },
   {
-    "revision": "a199119406805d32a47b",
-    "url": "/Jonathons-Portfolio/static/js/main.5824e6fe.chunk.js"
+    "revision": "cea3f66d89b964c0ab25",
+    "url": "/Jonathons-Portfolio/static/js/main.cffa484a.chunk.js"
   },
   {
     "revision": "942d2420ca802bf214cd",
@@ -34,6 +34,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "40273454d8183b805e34faaeff2f1032",
     "url": "/Jonathons-Portfolio/static/media/Header2.40273454.jpg"
+  },
+  {
+    "revision": "f0327a49d1b2d88cdf44931698071098",
+    "url": "/Jonathons-Portfolio/static/media/MMG-Homepage.f0327a49.jpg"
+  },
+  {
+    "revision": "1bbfe70ed03a43444c78819dc3c0833a",
+    "url": "/Jonathons-Portfolio/static/media/MMG-Phone-Homepage.1bbfe70e.png"
+  },
+  {
+    "revision": "73968ba163e5c1e3173c680338a88819",
+    "url": "/Jonathons-Portfolio/static/media/MMG-Phone-Products.73968ba1.png"
+  },
+  {
+    "revision": "c7d054b4ae1c68e49dcbcd12fb01e077",
+    "url": "/Jonathons-Portfolio/static/media/MMG-ProductManagement.c7d054b4.jpg"
   },
   {
     "revision": "a00376e2ecdf74ba8f0fe14bbc9e9b52",
@@ -198,5 +214,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1585aece6bc2a7816002dc338ed6a560",
     "url": "/Jonathons-Portfolio/static/media/vermillion.1585aece.png"
+  },
+  {
+    "revision": "fc6c3d14f3767ddb00f2b2e83f4d0b54",
+    "url": "/Jonathons-Portfolio/static/media/wix.fc6c3d14.png"
   }
 ]);
