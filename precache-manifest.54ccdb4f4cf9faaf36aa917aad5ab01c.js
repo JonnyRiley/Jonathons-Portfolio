@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "282fad9270239a5650283084e24ba862",
+    "revision": "2f8cf03a8df2c0d9a1cba7c7dd43db1e",
     "url": "/Jonathons-Portfolio/index.html"
   },
   {
-    "revision": "74111f3cd7cfc28af065",
+    "revision": "1cf2e29036b624a08cd0",
     "url": "/Jonathons-Portfolio/static/css/main.aef061e7.chunk.css"
   },
   {
-    "revision": "76a26ee8acef9b25b6a4",
-    "url": "/Jonathons-Portfolio/static/js/2.198d9c03.chunk.js"
+    "revision": "54d8fe6be93faba544e2",
+    "url": "/Jonathons-Portfolio/static/js/2.de6b0557.chunk.js"
   },
   {
-    "revision": "74111f3cd7cfc28af065",
-    "url": "/Jonathons-Portfolio/static/js/main.0515bcff.chunk.js"
+    "revision": "1cf2e29036b624a08cd0",
+    "url": "/Jonathons-Portfolio/static/js/main.c1765169.chunk.js"
   },
   {
     "revision": "942d2420ca802bf214cd",
@@ -58,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "811f7c0310afd0c7d675c4483ea303b6",
     "url": "/Jonathons-Portfolio/static/media/NC-Photo copy.811f7c03.PNG"
+  },
+  {
+    "revision": "a4abad0e517f23c06b86dac6b469c1f2",
+    "url": "/Jonathons-Portfolio/static/media/Payment-Logos.a4abad0e.png"
+  },
+  {
+    "revision": "504dbb469d989052901871a2ffea578d",
+    "url": "/Jonathons-Portfolio/static/media/VT-Image.504dbb46.png"
   },
   {
     "revision": "da18e466533a0c1ed159d5769dd5d27e",
