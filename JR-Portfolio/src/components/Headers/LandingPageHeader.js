@@ -56,7 +56,7 @@ function LandingPageHeader() {
             </div>
 
             <h3 className="presentation-subtitle text-center">
-              Junior Software Developer
+              JavaScript Developer
             </h3>
           </Container>
         </div>

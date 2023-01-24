@@ -72,95 +72,75 @@ function SectionButtons() {
                 <h3>Software Skills</h3>
                 <br />
               </div>
-              <p>
-                {" "}
-                Javascript
-                <Progress
-                  max="100"
-                  value="90"
-                  barClassName="progress-bar-success"
-                />
-              </p>
-              <p>
-                React
-                <Progress
-                  max="100"
-                  value="85"
-                  barClassName="progress-bar-success"
-                />
-              </p>
-              <p>
-                {" "}
-                HTML5
-                <Progress
-                  max="100"
-                  value="85"
-                  barClassName="progress-bar-success"
-                />
-              </p>
-              <p>
-                {" "}
-                CSS
-                <Progress
-                  max="100"
-                  value="85"
-                  barClassName="progress-bar-success"
-                />
-              </p>
-              <p>
-                {" "}
-                Bootstrap
-                <Progress
-                  max="100"
-                  value="78"
-                  barClassName="progress-bar-success"
-                />
-              </p>
-              <p>
-                {" "}
-                NodeJs
-                <Progress
-                  max="100"
-                  value="78"
-                  barClassName="progress-bar-success"
-                />
-              </p>
-              <p>
-                {" "}
-                Express.js
-                <Progress
-                  max="100"
-                  value="70"
-                  barClassName="progress-bar-warning"
-                />
-              </p>{" "}
-              <p>
-                {" "}
-                PostgreSQL
-                <Progress
-                  max="100"
-                  value="70"
-                  barClassName="progress-bar-warning"
-                />
-              </p>
-              <p>
-                {" "}
-                Flutter
-                <Progress
-                  max="100"
-                  value="70"
-                  barClassName="progress-bar-warning"
-                />
-              </p>
-              <p>
-                {" "}
-                Dart
-                <Progress
-                  max="100"
-                  value="70"
-                  barClassName="progress-bar-warning"
-                />
-              </p>
+              <div>
+                    {" "}
+                    Javascript
+                    <Progress
+                      max="100"
+                      value="90"
+                      barClassName="progress-bar-success"
+                    />
+                  </div>
+                  <div>
+                    Vue
+                    <Progress
+                      max="100"
+                      value="90"
+                      barClassName="progress-bar-success"
+                    />
+                  </div>
+                  <div>
+                    React
+                    <Progress
+                      max="100"
+                      value="90"
+                      barClassName="progress-bar-success"
+                    />
+                  </div>
+                  <div>
+                    {" "}
+                    Node
+                    <Progress
+                      max="100"
+                      value="90"
+                      barClassName="progress-bar-success"
+                    />
+                  </div>
+                  <div>
+                    {" "}
+                    Express
+                    <Progress
+                      max="100"
+                      value="90"
+                      barClassName="progress-bar-success"
+                    />
+                  </div>{" "}
+                  <div>
+                    TypeScript
+                    <Progress
+                      max="100"
+                      value="85"
+                      barClassName="progress-bar-success"
+                    />
+                  </div>
+                  <div>
+                    {" "}
+                    Angular
+                    <Progress
+                      max="100"
+                      value="75"
+                      barClassName="progress-bar-warning"
+                    />
+                  </div>
+                  <div>
+                    {" "}
+                    HandleBars
+                    <Progress
+                      max="100"
+                      value="75"
+                      barClassName="progress-bar-warning"
+                    />
+                  </div>
               <br />
             </Col>
           </Row>

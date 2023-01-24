@@ -38,12 +38,7 @@ function About() {
               </div>
               <div className="d-flex justify-content-center">
                 <h5 className="w-75 p-3">
-                  An adaptable and responsible Business graduate that has
-                  recently completed an industry-led coding Bootcamp,
-                  NorthCoders. I have a clear, logical mind with a practical
-                  approach to problem solving and a drive to see things through
-                  to completion. Coding has enabled me to further my curiosity
-                  into problem solving and how the world of tech works.
+                  An adaptable, creative Full Stack Developer with three years' experience engaging in all phases of project lifecycles within an agile environment. Currently working within the corporate travel industry as Full Stack JavaScript Developer aiming to drive my career and expertise within the tech industry.
                 </h5>
               </div>
             </div>
@@ -69,82 +64,62 @@ function About() {
                     />
                   </div>
                   <div>
+                    Vue
+                    <Progress
+                      max="100"
+                      value="90"
+                      barClassName="progress-bar-success"
+                    />
+                  </div>
+                  <div>
                     React
                     <Progress
                       max="100"
-                      value="85"
+                      value="90"
                       barClassName="progress-bar-success"
                     />
                   </div>
                   <div>
                     {" "}
-                    HTML5
+                    Node
                     <Progress
                       max="100"
-                      value="85"
+                      value="90"
                       barClassName="progress-bar-success"
                     />
                   </div>
                   <div>
                     {" "}
-                    CSS
+                    Express
                     <Progress
                       max="100"
-                      value="85"
+                      value="90"
                       barClassName="progress-bar-success"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    Bootstrap
-                    <Progress
-                      max="100"
-                      value="78"
-                      barClassName="progress-bar-success"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    NodeJs
-                    <Progress
-                      max="100"
-                      value="78"
-                      barClassName="progress-bar-success"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    Express.js
-                    <Progress
-                      max="100"
-                      value="70"
-                      barClassName="progress-bar-warning"
                     />
                   </div>{" "}
                   <div>
-                    {" "}
-                    PostgreSQL
+                    TypeScript
                     <Progress
                       max="100"
-                      value="70"
+                      value="85"
+                      barClassName="progress-bar-success"
+                    />
+                  </div>
+                  <div>
+                    {" "}
+                    Angular
+                    <Progress
+                      max="100"
+                      value="75"
                       barClassName="progress-bar-warning"
                     />
                   </div>
                   <div>
                     {" "}
-                    Flutter
+                    HandleBars
                     <Progress
                       max="100"
-                      value="70"
-                      barClassName="progress-bar-warning"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    Dart
-                    <Progress
-                      max="100"
-                      value="70"
+                      value="75"
                       barClassName="progress-bar-warning"
                     />
                   </div>

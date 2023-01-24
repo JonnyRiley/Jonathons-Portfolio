@@ -36,14 +36,7 @@ function Projects() {
               </h4>
             </div>
             <h5 className="col">
-              In addition to Coding, I studied International Business throughout
-              my time at College and University. This enabled me to develop a
-              wide variety of skills and knowledge of the business world. I
-              attended Edge Hill University and wrote my dissertation on the
-              automobile leasing industry. I believe that this experience drove
-              my desire to initiate my entrepreneurial self. I partnered with a
-              local brand Vermillion to distribute Hats across the North West,
-              UK.
+              As a Developer and an International Business graduate, I apply my knowledge to ensure optimal and innovative solutions are created. I recently demonstrated this through creating an automated selection process to enhance business sales and corporate processes. I have a clear, logical mind with a practical approach to problem solving and a drive to see things through to completion.
             </h5>
             <br />
             <NavLink className="btn-round" color="info" to="/about" tag={Link}>

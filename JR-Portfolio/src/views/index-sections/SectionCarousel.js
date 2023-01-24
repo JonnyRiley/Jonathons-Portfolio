@@ -146,19 +146,23 @@ function SectionCarousel() {
                 </div>
                 <div className="d-flex justify-content-center">
                   <ul className="list-group">
-                    <li className="list-inline-item">Tea Drinker</li>
+                    <li className="list-inline-item">Tea Lover</li>
 
                     <li className="list-inline-item">
                       {" "}
-                      I enjoy travelling the world
+                      Enjoy Traveling The World
                     </li>
 
                     <li className="list-inline-item">
-                      I love playing and watching all sports
+                      Keen Sports Fan (Especially Golf And Football!)
                     </li>
 
                     <li className="list-inline-item">
-                      I go to the gym regularly to keep myself fit
+                      Regular Gym Goer
+                    </li>
+
+                    <li className="list-inline-item">
+                      ChatGPT Isn't Going To Take All Of Our Jobs...
                     </li>
                   </ul>
                 </div>

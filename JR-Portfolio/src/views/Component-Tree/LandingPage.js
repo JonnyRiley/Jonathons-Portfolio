@@ -46,12 +46,7 @@ function LandingPage() {
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <h5 className="description">
-                  An adaptable and responsible Business graduate that has
-                  recently completed an industry-led coding Bootcamp,
-                  NorthCoders. I have a clear, logical mind with a practical
-                  approach to problem solving and a drive to see things through
-                  to completion. Coding has enabled me to further my curiosity
-                  into problem solving and how the world of tech works.
+                  An adaptable, creative Full Stack Developer with three years' experience engaging in all phases of project lifecycles within an agile environment. Currently working within the corporate travel industry as Full Stack JavaScript Developer aiming to drive my career and expertise within the tech industry.
                 </h5>
                 <br />
                 <NavLink

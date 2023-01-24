@@ -33,7 +33,7 @@ function MMGPage() {
                     <Row>
                       <NavLink
                         data-placement="bottom"
-                        href="www.migrainemiracleglasses.com"
+                        href="https://www.migrainemiracleglasses.com"
                         target="_blank"
                         title="MMG Website"
                       >

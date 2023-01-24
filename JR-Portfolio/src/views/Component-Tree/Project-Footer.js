@@ -36,6 +36,26 @@ function ProjectFooterPage() {
       <Container>
         <div className="section text-center">
           <div className="title">
+            <h2>Work</h2>
+          </div>
+          <Row>
+            <Col md="2" />
+            <Col md="8" sm="7">
+              <h4 className="images-title">JavaScript Developer At Trailfinders</h4>
+              <NavLink to="/trailfinders" tag={Link}>
+                <img
+                  alt="vt_image_trailfinders"
+                  className="img-rounded img-responsive"
+                  src={require("assets/Trailfinders-Assets/VT-Image.png")}
+                />
+              </NavLink>
+            </Col>
+          </Row>
+        </div>
+      </Container>
+      <Container>
+        <div className="section text-center">
+          <div className="title">
             <h2>Projects</h2>
           </div>
           <Row>

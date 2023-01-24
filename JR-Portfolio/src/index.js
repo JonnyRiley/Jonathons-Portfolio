@@ -34,7 +34,7 @@ import ReChargePage from "./views/Component-Tree/ReCharge-page.js";
 import VermillionPage from "./views/Component-Tree/Vermillion-page.js";
 import ChinaPage from "./views/Component-Tree/China-page.js";
 import EdgeHillPage from "./views/Component-Tree/EdgeHill-page.js";
-
+import Trailfinders from "./views/Component-Tree/Trailfinders.js"
 // others
 import About from "views/Component-Tree/About-page.js";
 import LicensePage from "views/Component-Tree/License.js";
@@ -52,6 +52,7 @@ ReactDOM.render(
       <Route path="/portfolio" render={(props) => <LandingPage {...props} />} />
       <Route path="/milkroom" render={(props) => <MilkroomPage {...props} />} />
       <Route path="/reCharge" render={(props) => <ReChargePage {...props} />} />
+      <Route path="/trailfinders" render={(props) => <Trailfinders {...props} />} />
       <Route
         path="/northcoders"
         render={(props) => <NorthcodersPage {...props} />}
